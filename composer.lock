@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "57e997af4d3df1e859f41d073c4f0ab2",
-    "content-hash": "01919ff88b86f618d3f89c2d8fd55da6",
+    "hash": "c2113ee905b659281ba29992f2e071ae",
+    "content-hash": "2e08f95d30d7920dcd989e8dd9d479bc",
     "packages": [
         {
             "name": "behat/behat",
@@ -2230,16 +2230,16 @@
         },
         {
             "name": "liuggio/fastest",
-            "version": "dev-master",
+            "version": "1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/liuggio/fastest.git",
-                "reference": "3dfef567aea12c1143961bfae7bf2027947ef4a9"
+                "reference": "920e89788c80d3f57ba227ae4b666815d71a87b8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/liuggio/fastest/zipball/3dfef567aea12c1143961bfae7bf2027947ef4a9",
-                "reference": "3dfef567aea12c1143961bfae7bf2027947ef4a9",
+                "url": "https://api.github.com/repos/liuggio/fastest/zipball/920e89788c80d3f57ba227ae4b666815d71a87b8",
+                "reference": "920e89788c80d3f57ba227ae4b666815d71a87b8",
                 "shasum": ""
             },
             "require": {
@@ -2284,7 +2284,7 @@
                 }
             ],
             "description": "Simple parallel testing execution... with some goodies for functional tests.",
-            "time": "2015-12-07 10:39:16"
+            "time": "2015-12-04 11:12:25"
         },
         {
             "name": "mockery/mockery",
@@ -5452,7 +5452,6 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "liuggio/fastest": 20,
         "codeclimate/php-test-reporter": 20
     },
     "prefer-stable": false,
