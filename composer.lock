@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "bd5adc02e0809df15a0b86aac40fe1be",
-    "content-hash": "9e87433388d1a917f225c8d40e8426c1",
+    "hash": "c7dcf45e036a6870b46aff0e9096607e",
+    "content-hash": "feff38c5e6665f31ab96bfecf550496d",
     "packages": [
         {
             "name": "behat/behat",
@@ -5179,8 +5179,8 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "codeclimate/php-test-reporter": 20,
-        "liuggio/fastest": 20
+        "liuggio/fastest": 20,
+        "codeclimate/php-test-reporter": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
