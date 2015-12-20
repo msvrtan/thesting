@@ -24,7 +24,7 @@
         "liuggio/fastest":                          "~1.1",
         "vinkla/climb":                             "^0.7.0",
         "satooshi/php-coveralls":                   "0.6.*",
-        "codeclimate/php-test-reporter":            "dev-master"
+        "codeclimate/php-test-reporter":            "@dev"
     },
     "config": {
         "bin-dir": "bin"
