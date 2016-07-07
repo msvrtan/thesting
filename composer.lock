@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "62f72f8e951bc5df26c4e4f0f140d90e",
-    "content-hash": "5c702cd45129590afb9196a8ce890111",
+    "hash": "20a084d4dc2cb6672152f9d4f33740f5",
+    "content-hash": "0ad47c2d65ba7b0c2e977b5574e602d6",
     "packages": [
         {
             "name": "behat/behat",
@@ -1973,31 +1973,33 @@
         },
         {
             "name": "henrikbjorn/phpspec-code-coverage",
-            "version": "1.0.1",
+            "version": "2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/henrikbjorn/PhpSpecCodeCoverageExtension.git",
-                "reference": "689f1f173d6ddfac076b4430bf1b6ceb345cff46"
+                "reference": "528a0c69a524f8acba5f66bc59ae8dc9bc409045"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/henrikbjorn/PhpSpecCodeCoverageExtension/zipball/689f1f173d6ddfac076b4430bf1b6ceb345cff46",
-                "reference": "689f1f173d6ddfac076b4430bf1b6ceb345cff46",
+                "url": "https://api.github.com/repos/henrikbjorn/PhpSpecCodeCoverageExtension/zipball/528a0c69a524f8acba5f66bc59ae8dc9bc409045",
+                "reference": "528a0c69a524f8acba5f66bc59ae8dc9bc409045",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.3",
-                "phpspec/phpspec": "~2.0",
-                "phpunit/php-code-coverage": "~2.0"
+                "php": "^5.3.3|^5.4|^5.5|^5.6|^7.0",
+                "phpspec/phpspec": "^2.0",
+                "phpunit/php-code-coverage": "^2.2.4|^3"
             },
             "require-dev": {
-                "bossa/phpspec2-expect": "~1.0",
-                "ext-xdebug": ">=2.1.4"
+                "bossa/phpspec2-expect": "^1.0"
+            },
+            "suggest": {
+                "ext-xdebug": "To allow coverage generation when not using a recent version of phpdbg"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0.x-dev"
+                    "dev-master": "2.0.x-dev"
                 }
             },
             "autoload": {
@@ -2010,7 +2012,7 @@
                 "MIT"
             ],
             "description": "Integrates CodeCoverage with PhpSpec",
-            "time": "2014-12-11 11:43:15"
+            "time": "2016-05-05 18:25:12"
         },
         {
             "name": "instaclick/php-webdriver",
