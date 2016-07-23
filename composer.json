@@ -26,7 +26,8 @@
         "fzaninotto/faker":                         "~1.2",
         "liuggio/fastest":                          "~1.1",
         "satooshi/php-coveralls":                   "^1",
-        "codeclimate/php-test-reporter":            "^0.3.2"
+        "codeclimate/php-test-reporter":            "^0.3.2",
+        "sebastian/phpcpd": "^2.0"
     },
     "config": {
         "bin-dir": "bin"
