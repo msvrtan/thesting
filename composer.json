@@ -6,10 +6,10 @@
     "require": {
         "phpunit/phpunit":                          "^5",
         "mockery/mockery":                          "~0.9",
-        "phpspec/phpspec":                          "~2.0",
-        "henrikbjorn/phpspec-code-coverage":        "^2.1",
+        "phpspec/phpspec":                          "~3.0",
+        "henrikbjorn/phpspec-code-coverage":        "^3.0",
         "coduo/phpspec-data-provider-extension":    "^1.0",
-        "ciaranmcnulty/phpspec-typehintedmethods":  "~1.1",
+        "ciaranmcnulty/phpspec-typehintedmethods":  "~2.0",
         "rmiller/exemplify-extension":              "~0.2",
         "behat/behat":                              "~3.0",
         "behat/symfony2-extension":                 "~2.0",
