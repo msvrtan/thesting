@@ -1,0 +1,34 @@
+<?php
+
+$finder = PhpCsFixer\Finder::create()
+    ->in(__DIR__.DIRECTORY_SEPARATOR.'src')
+    ->in(__DIR__.DIRECTORY_SEPARATOR.'spec')
+    ->in(__DIR__.DIRECTORY_SEPARATOR.'tests')
+;
+
+return PhpCsFixer\Config::create()
+    ->setRules([
+        '@Symfony' => true,
+        'array_syntax' => ['syntax' => 'short'],
+        'blank_line_after_opening_tag' => false,
+        'ordered_imports' => true,
+        'binary_operator_spaces' => [
+            'default' => 'single_space',
+            'operators' => [
+                '=>' => 'align_single_space_minimal',
+            ]
+        ],
+        'class_attributes_separation' => ['elements' => ['const', 'method', 'property']],
+        'general_phpdoc_annotation_remove' => ['author'],
+        'phpdoc_order' => true,
+        'php_unit_mock_short_will_return' => true,
+        'declare_strict_types' => true,
+        'binary_operator_spaces' => [
+            'align_double_arrow' => true,
+            'align_equals' => true,
+        ],
+    ])
+    ->setCacheFile(__DIR__.DIRECTORY_SEPARATOR.'vendor'.DIRECTORY_SEPARATOR.'.php_cs.cache')
+    ->setFinder($finder)
+    ->setRiskyAllowed(true)
+    ;
