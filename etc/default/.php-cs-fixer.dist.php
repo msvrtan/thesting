@@ -1,12 +1,14 @@
 <?php
 
 $finder = PhpCsFixer\Finder::create()
-    ->in(__DIR__.DIRECTORY_SEPARATOR.'src')
-    ->in(__DIR__.DIRECTORY_SEPARATOR.'spec')
-    ->in(__DIR__.DIRECTORY_SEPARATOR.'tests')
+    ->in('src')
+    ->in('spec')
+    ->in('tests')
 ;
 
-return PhpCsFixer\Config::create()
+$config=new PhpCsFixer\Config();
+
+return $config
     ->setRules([
         '@Symfony' => true,
         'array_syntax' => ['syntax' => 'short'],
@@ -18,7 +20,7 @@ return PhpCsFixer\Config::create()
                 '=>' => 'align_single_space_minimal',
             ]
         ],
-        'class_attributes_separation' => ['elements' => ['const', 'method', 'property']],
+        'class_attributes_separation' => ['elements' => ['const' => 'one', 'method' => 'one', 'property' => 'one']],
         'general_phpdoc_annotation_remove' => ['author'],
         'phpdoc_order' => true,
         'php_unit_mock_short_will_return' => true,
@@ -28,7 +30,8 @@ return PhpCsFixer\Config::create()
             'align_equals' => true,
         ],
     ])
-    ->setCacheFile(__DIR__.DIRECTORY_SEPARATOR.'vendor'.DIRECTORY_SEPARATOR.'.php_cs.cache')
+    ->setLineEnding("\n")
+    ->setCacheFile(__DIR__.'/vendor/.php_cs.cache')
     ->setFinder($finder)
     ->setRiskyAllowed(true)
-    ;
+;
